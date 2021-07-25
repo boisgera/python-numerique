@@ -8,11 +8,12 @@ jupytext:
     extension: .md
     format_name: myst
 kernelspec:
-  display_name: Python 3
+  display_name: Python 3 (ipykernel)
   language: python
   name: python3
 language_info:
   name: python
+  nbconvert_exporter: python
   pygments_lexer: ipython3
 notebookname: checklist
 version: '1.0'
@@ -82,7 +83,7 @@ un résumé des compétences attendues pour commencer les cours d'info
 ## Jupyter
 
 * avoir installé jupyter
-* avoir installé `jupytext[myst]`
+* avoir installé jupytext
 * lancer `jupyter notebook`; savoir :
 * créer un nouveau notebook
 * ajouter des cellules, alterner entre code et markdown
